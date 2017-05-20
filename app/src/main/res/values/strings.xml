@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">TallerBasedeDatos</string>
+    <string name="registro">REGISTRAR APARTAMENTO</string>
+    <string name="piso">Piso</string>
+    <string name="piso1">Piso uno</string>
+    <string name="piso2">Piso dos</string>
+    <string name="piso3">Piso tres</string>
+    <string name="piso4">Piso cuatro</string>
+    <string name="piso5">Piso cinco</string>
+    <string name="registraro">Registrar</string>
+    <string name="listado">Listado de Apartamentos</string>
+    <string name="listadobs">Listado Con Balcon y Sombra</string>
+    <string name="listadopc">Piso Más Caro</string>
+    <string name="listadopg">Apartamento Más Grande</string>
+    <string name="precio">Precio</string>
+    <string name="balcon">Balcon</string>
+    <string name="si">Si</string>
+    <string name="no">No</string>
+    <string name="num">No.</string>
+    <string name="sombra">Sombra</string>
+    <string name="mts">Mts2</string>
+    <string name="nomec">Nomeclatura</string>
+    <string name="guardar">Guardar</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="txtCantiVa" />
+    <string name="cantititulo">Cantidad de Apartamentos con Balcon y Sombra</string>
+    <string-array name="pisos">
+        <item>@string/piso1</item>
+        <item>@string/piso2</item>
+        <item>@string/piso3</item>
+        <item>@string/piso4</item>
+        <item>@string/piso5</item>
+    </string-array>
+    <string-array name="opciones">
+        <item>@string/registraro</item>
+        <item>@string/listado</item>
+        <item>@string/listadobs</item>
+        <item>@string/listadopc</item>
+        <item>@string/listadopg</item>
+
+    </string-array>
+</resources>

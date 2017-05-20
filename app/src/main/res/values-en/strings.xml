@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TallerBasedeDatos</string>
+    <string name="balcon">Balcony</string>
+    <string name="guardar">Save</string>
+    <string name="listado">List of apartments</string>
+    <string name="listadobs">List with balcony and shade</string>
+    <string name="listadopc">Most expensive apartment</string>
+    <string name="listadopg">Bigger apartment</string>
+    <string name="mts">Square meters</string>
+    <string name="no">No</string>
+    <string name="nomec">Nomeclatura</string>
+    <string name="piso">Floor</string>
+    <string name="piso1">First floor</string>
+    <string name="piso5">Fifth floor</string>
+    <string name="piso2">Second floor</string>
+    <string name="piso3">Third floor</string>
+    <string name="piso4">Fourth floor</string>
+    <string name="precio">Price</string>
+    <string name="registraro">Register</string>
+    <string name="registro">Register Apartment</string>
+    <string name="si">Yes</string>
+    <string name="sombra">Shade</string>
+    <string name="num">No.</string>
+</resources>
