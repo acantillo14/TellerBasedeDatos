@@ -83,11 +83,15 @@ public class Registrar extends AppCompatActivity {
             cajamts.requestFocus();
             return false;
         }
-        if(cajanome.getText().toString().isEmpty()) {
-            cajanome.setError("Digite la nomeclatura");
+
+        boolean nome;
+        nome = Datos.validarnome(getApplicationContext(), cajanome.getText().toString());
+        if(cajanome.getText().toString().isEmpty() || nome==false ){
+            cajanome.setError(this.getResources().getString(R.string.error));
             cajanome.requestFocus();
             return false;
         }
+
         return true;
     }
 }

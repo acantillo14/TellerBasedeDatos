@@ -15,11 +15,12 @@
     <string name="precio">Precio</string>
     <string name="balcon">Balcon</string>
     <string name="si">Si</string>
+    <string name="error">Por favor Corregir Nomenclatura</string>
     <string name="no">No</string>
     <string name="num">No.</string>
     <string name="sombra">Sombra</string>
     <string name="mts">Mts2</string>
-    <string name="nomec">Nomeclatura</string>
+    <string name="nomec">Nomenclatura</string>
     <string name="guardar">Guardar</string>
     <string name="cantidad">Cantidad</string>
     <string name="txtCantiVa" />

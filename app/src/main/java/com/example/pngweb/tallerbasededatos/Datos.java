@@ -19,7 +19,7 @@ public class Datos {
         String sql, piso, precio, balcon, sombra, mts, nome;
 
 
-        ApartamentosSQLiteOpenHelper aux = new ApartamentosSQLiteOpenHelper(contexto, "DBApartamentos", null, 2);
+        ApartamentosSQLiteOpenHelper aux = new ApartamentosSQLiteOpenHelper(contexto, "DBApartamentos", null, 3);
         db = aux.getReadableDatabase();
         //cursor
 
@@ -50,7 +50,7 @@ public class Datos {
         String sql, piso, precio, balcon, sombra, mts, nome;
         int cant =0;
 
-        ApartamentosSQLiteOpenHelper aux = new ApartamentosSQLiteOpenHelper(contexto, "DBApartamentos", null, 2);
+        ApartamentosSQLiteOpenHelper aux = new ApartamentosSQLiteOpenHelper(contexto, "DBApartamentos", null, 3);
         db = aux.getReadableDatabase();
         //cursor
 
@@ -61,13 +61,35 @@ public class Datos {
         return cant;
     }
 
+
+    public static boolean validarnome(Context contexto, String nome) {
+
+        SQLiteDatabase db;
+        String  sql;
+
+        ApartamentosSQLiteOpenHelper aux = new ApartamentosSQLiteOpenHelper(contexto,"DBApartamentos",null,3);
+        db = aux.getReadableDatabase();
+
+        sql ="select * from Apartamentos where nomeclatura ='"+nome+"'";
+        Cursor c = db.rawQuery(sql,null);
+        if(c.moveToFirst()){
+
+            return false;
+        }
+
+        db.close();
+        return true;
+
+
+    }
+
     public static ArrayList<Apartamento> listarMasCaro(Context contexto) {
         ArrayList<Apartamento> apartamentos = new ArrayList<>();
     SQLiteDatabase db;
     String sql, piso, precio, balcon, sombra, mts, nome;
 
 
-    ApartamentosSQLiteOpenHelper aux = new ApartamentosSQLiteOpenHelper(contexto, "DBApartamentos", null, 2);
+    ApartamentosSQLiteOpenHelper aux = new ApartamentosSQLiteOpenHelper(contexto, "DBApartamentos", null, 3);
     db = aux.getReadableDatabase();
     //cursor
 
@@ -99,7 +121,7 @@ public class Datos {
         String sql, piso, precio, balcon, sombra, mtss, nome;
 
 
-        ApartamentosSQLiteOpenHelper aux = new ApartamentosSQLiteOpenHelper(contexto, "DBApartamentos", null, 2);
+        ApartamentosSQLiteOpenHelper aux = new ApartamentosSQLiteOpenHelper(contexto, "DBApartamentos", null, 3);
         db = aux.getReadableDatabase();
         //cursor
 

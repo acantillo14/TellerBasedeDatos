@@ -82,7 +82,7 @@ public class Apartamento {
 
         //abrimos la conexión de la db en modo de escritura
 
-        ApartamentosSQLiteOpenHelper aux = new ApartamentosSQLiteOpenHelper(contexto,"DBApartamentos",null,2);
+        ApartamentosSQLiteOpenHelper aux = new ApartamentosSQLiteOpenHelper(contexto,"DBApartamentos",null,3);
         db = aux.getWritableDatabase();
 
         //insertar version 1
