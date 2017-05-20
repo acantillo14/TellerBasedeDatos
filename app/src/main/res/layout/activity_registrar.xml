@@ -178,5 +178,13 @@
             android:layout_weight="0.03"
             android:onClick="guardar"
             android:text="@string/guardar" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:onClick="limpiarventa"
+            android:text="@string/limpiar" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

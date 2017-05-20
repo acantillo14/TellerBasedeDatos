@@ -23,8 +23,8 @@
     <string name="nomec">Nomenclatura</string>
     <string name="guardar">Guardar</string>
     <string name="cantidad">Cantidad</string>
-    <string name="txtCantiVa" />
     <string name="cantititulo">Cantidad de Apartamentos con Balcon y Sombra</string>
+    <string name="limpiar">Limpiar</string>
     <string-array name="pisos">
         <item>@string/piso1</item>
         <item>@string/piso2</item>

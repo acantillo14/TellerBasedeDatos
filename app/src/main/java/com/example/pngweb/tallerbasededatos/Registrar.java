@@ -70,6 +70,18 @@ public class Registrar extends AppCompatActivity {
 
     }
 
+    public void limpiarventa(View v){
+        cajaPrecio.setText("");
+        cajamts.setText("");
+        cajanome.setText("");
+        rdSib.setChecked(true);
+        rdNob.setChecked(false);
+        rdSis.setChecked(true);
+        rdNos.setChecked(false);
+        cajaPrecio.requestFocus();
+
+    }
+
     public boolean validarTodo(){
 
         if(cajaPrecio.getText().toString().isEmpty()) {
