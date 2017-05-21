@@ -24,5 +24,8 @@
     <string name="num">No.</string>
     <string name="cantidad">Quantity</string>
     <string name="cantititulo">Quantity</string>
-    <string name="error">"Please retype Nomenclature "</string>
+    <string name="error">Please retype Nomenclature</string>
+    <string name="limpiar">Clean</string>
+    <string name="mayortam">Bigger apartment</string>
+    <string name="apartamentespen">Most expensive apartment</string>
 </resources>
