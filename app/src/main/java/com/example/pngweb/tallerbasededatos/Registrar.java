@@ -52,7 +52,7 @@ public class Registrar extends AppCompatActivity {
             nome=cajanome.getText().toString();
             a = new Apartamento(piso,precio,balcon,sombra,mts,nome);
             a.guardar(getApplicationContext());
-            new AlertDialog.Builder(this).setMessage("Apartamento Guardado Exitosamente").setCancelable(true).show();
+            new AlertDialog.Builder(this).setMessage(this.getResources().getString(R.string.mensajeg)).setCancelable(true).show();
             limpiar();
         }
     }
@@ -85,13 +85,13 @@ public class Registrar extends AppCompatActivity {
     public boolean validarTodo(){
 
         if(cajaPrecio.getText().toString().isEmpty()) {
-            cajaPrecio.setError("Digite el Precio");
+            cajaPrecio.setError(this.getResources().getString(R.string.error1));
             cajaPrecio.requestFocus();
             return false;
         }
 
         if(cajamts.getText().toString().isEmpty()) {
-            cajamts.setError("Digite la medida en mts2");
+            cajamts.setError(this.getResources().getString(R.string.error2));
             cajamts.requestFocus();
             return false;
         }

@@ -16,7 +16,9 @@
     <string name="precio">Precio</string>
     <string name="balcon">Balcon</string>
     <string name="si">Si</string>
-    <string name="error">Por favor Corregir Nomenclatura</string>
+    <string name="mensajeg">Apartamento Guardado Exitosamente</string>
+    <string name="error1">Digite el Precio</string>
+    <string name="error2">Digite la medida en mts2</string>
     <string name="no">No</string>
     <string name="num">No.</string>
     <string name="sombra">Sombra</string>
@@ -46,4 +48,6 @@
         <item>@string/listadopm</item>
 
     </string-array>
+    <string name="error">Favor Digitar o Corregir Nomenclatura</string>
+
 </resources>

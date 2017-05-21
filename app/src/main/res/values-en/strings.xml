@@ -28,4 +28,10 @@
     <string name="limpiar">Clean</string>
     <string name="mayortam">Bigger apartment</string>
     <string name="apartamentespen">Most expensive apartment</string>
+    <string name="error1">Type the price</string>
+    <string name="error2">Type the size in m2</string>
+    <string name="listadopm">List of average per floor</string>
+    <string name="pormedio">Average</string>
+    <string name="promepiso">List of average per floor</string>
+    <string name="mensajeg">"apartment save "</string>
 </resources>
