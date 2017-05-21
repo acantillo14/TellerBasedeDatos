@@ -25,6 +25,8 @@
     <string name="cantidad">Cantidad</string>
     <string name="cantititulo">Cantidad de Apartamentos con Balcon y Sombra</string>
     <string name="limpiar">Limpiar</string>
+    <string name="mayortam">Apartamento con mayor tamaño</string>
+    <string name="apartamentespen">Piso con el apartamento más costoso</string>
     <string-array name="pisos">
         <item>@string/piso1</item>
         <item>@string/piso2</item>
