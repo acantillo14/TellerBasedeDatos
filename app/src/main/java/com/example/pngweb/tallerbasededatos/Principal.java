@@ -45,7 +45,12 @@ public class Principal extends AppCompatActivity {
                         i = new Intent(Principal.this,ReporteMayorTamanio.class);
                         startActivity(i);
                         break;
+                    case 5:
+                        i = new Intent(Principal.this,ReportePormedioPiso.class);
+                        startActivity(i);
+                        break;
                 }
+
             }
         });
     }

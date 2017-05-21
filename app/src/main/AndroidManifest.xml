@@ -20,7 +20,8 @@
         <activity android:name=".Listado" />
         <activity android:name=".ReporteBalconSombra" />
         <activity android:name=".ReportePisoCaro" />
-        <activity android:name=".ReporteMayorTamanio"></activity>
+        <activity android:name=".ReporteMayorTamanio" />
+        <activity android:name=".ReportePormedioPiso"></activity>
     </application>
 
 </manifest>

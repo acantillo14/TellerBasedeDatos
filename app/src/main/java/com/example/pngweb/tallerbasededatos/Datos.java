@@ -147,5 +147,35 @@ public class Datos {
         return apartamentos;
     }
 
+    public static ArrayList<Apartamento> Promediopiso(Context contexto) {
+        ArrayList<Apartamento> apartamentos = new ArrayList<>();
+        SQLiteDatabase db;
+        String sql, piso, precio, balcon, sombra, mtss, nome;
 
+
+        ApartamentosSQLiteOpenHelper aux = new ApartamentosSQLiteOpenHelper(contexto, "DBApartamentos", null, 3);
+        db = aux.getReadableDatabase();
+        //cursor
+
+        sql = "SELECT piso,precio,balcon,sombra,AVG(mts) mts,nomeclatura FROM apartamentos GROUP BY piso ";
+        Cursor c = db.rawQuery(sql, null);
+
+
+        //recorremos el cursor
+        if (c.moveToFirst()) {
+            do {
+                piso = c.getString(0);
+                precio = c.getString(1);
+                balcon = c.getString(2);
+                sombra = c.getString(3);
+                mtss = c.getString(4);
+                nome = c.getString(5);
+                a = new Apartamento(piso, precio, balcon, sombra, mtss, nome);
+                apartamentos.add(a);
+            } while (c.moveToNext());
+        }
+        db.close();
+
+        return apartamentos;
+    }
 }

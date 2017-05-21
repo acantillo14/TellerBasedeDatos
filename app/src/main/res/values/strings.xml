@@ -12,6 +12,7 @@
     <string name="listadobs">Listado Con Balcon y Sombra</string>
     <string name="listadopc">Piso Más Caro</string>
     <string name="listadopg">Apartamento Más Grande</string>
+    <string name="listadopm">Listado de Promedio por Piso</string>
     <string name="precio">Precio</string>
     <string name="balcon">Balcon</string>
     <string name="si">Si</string>
@@ -27,6 +28,8 @@
     <string name="limpiar">Limpiar</string>
     <string name="mayortam">Apartamento con mayor tamaño</string>
     <string name="apartamentespen">Piso con el apartamento más costoso</string>
+    <string name="promepiso">Promedio de apartamentos por piso</string>
+    <string name="pormedio">Promedio</string>
     <string-array name="pisos">
         <item>@string/piso1</item>
         <item>@string/piso2</item>
@@ -40,6 +43,7 @@
         <item>@string/listadobs</item>
         <item>@string/listadopc</item>
         <item>@string/listadopg</item>
+        <item>@string/listadopm</item>
 
     </string-array>
 </resources>
