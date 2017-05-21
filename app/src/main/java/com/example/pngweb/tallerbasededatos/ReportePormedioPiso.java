@@ -22,7 +22,7 @@ public class ReportePormedioPiso extends AppCompatActivity {
             TextView c1 = new TextView(this);
             TextView c2 = new TextView(this);
             c1.setText(apartamentos.get(i).getPiso());
-            c2.setText(apartamentos.get(i).getMts());
+            c2.setText(apartamentos.get(i).getMts()+" Mts2 por piso");
             fila.addView(c1);
             fila.addView(c2);
             tabla.addView(fila);
